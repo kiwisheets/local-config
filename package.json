@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start-dev": "docker-compose --compatibility up --build -d",
+    "stop-dev": "docker-compose down"
+  }
+}

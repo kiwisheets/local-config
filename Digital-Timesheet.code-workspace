@@ -1,0 +1,170 @@
+{
+  "folders": [
+    {
+      "name": "Local Config",
+      "path": "."
+    },
+    {
+      "name": "Deploy Config",
+      "path": "../deploy-config"
+    },
+    {
+      "name": "Frontend",
+      "path": "../frontend"
+    },
+    {
+      "name": "GQL Server",
+      "path": "../gql-server"
+    },
+    {
+      "name": "File Server",
+      "path": "../file-server"
+    },
+    {
+      "name": "Local Reverse Proxy",
+      "path": "../local-reverse-proxy"
+    },
+    {
+      "name": "Docs",
+      "path": "../docs"
+    },
+    {
+      "name": "Licenses",
+      "path": "../licenses"
+    }
+  ],
+  "settings": {
+    "eslint.format.enable": true,
+    "eslint.validate": [
+      "typescript",
+      "typescriptreact",
+      "javascript",
+      "javascriptreact"
+    ],
+    "eslint.workingDirectories": [
+      "client",
+      "file-server"
+    ],
+    "editor.codeActionsOnSaveTimeout": 3000,
+    "go.useLanguageServer": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "[javascript]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.eol": "\r\n",
+    },
+    "[javascriptreact]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.eol": "\r\n",
+    },
+    "[typescript]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.eol": "\r\n",
+    },
+    "[typescriptreact]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.eol": "\r\n",
+    },
+    "[go]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+      },
+      "editor.tabSize": 4,
+      "editor.insertSpaces": false,
+      // Optional: Disable snippets, as they conflict with completion ranking.
+      "editor.snippetSuggestions": "none",
+      "files.eol": "\n"
+    },
+    "[go.mod]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+      },
+      "editor.tabSize": 4,
+      "editor.insertSpaces": false,
+    },
+    "gopls": {
+      // Add parameter placeholders when completing a function.
+      "usePlaceholders": true,
+      // If true, enable additional analyses with staticcheck.
+      // Warning: This will significantly increase memory usage.
+      "staticcheck": true,
+    },
+    // Hide root directory folders
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      // "client": true,
+      // "docs": true,
+      // "go-server": true,
+      // "licenses": true,
+      // "reverse-proxy": true,
+      // "file-server": true,
+    },
+    "go.languageServerExperimentalFeatures": {
+      "format": true,
+      "diagnostics": true,
+      "documentLink": false
+    },
+    "cSpell.words": [
+      "CHOKIDAR",
+      "Deduplication",
+      "Frag",
+      "Inbox",
+      "PGDATA",
+      "Vert",
+      "cfworker",
+      "chartjs",
+      "clsx",
+      "dataloaden",
+      "dind",
+      "dpage",
+      "dwin",
+      "emoji",
+      "enriquebris",
+      "goconcurrentqueue",
+      "godotenv",
+      "gqlgen",
+      "haspopup",
+      "idhash",
+      "ledns",
+      "maxtroughear",
+      "optimus",
+      "otplib",
+      "pgadmin",
+      "pgtune",
+      "postgres",
+      "postgresql",
+      "pquerna",
+      "qrcode",
+      "roboto",
+      "structs",
+      "totp",
+      "traefik",
+      "unfetch",
+      "unmount",
+      "vektah"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+  },
+}
