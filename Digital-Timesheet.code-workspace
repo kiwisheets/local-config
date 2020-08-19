@@ -25,6 +25,10 @@
       "path": "../local-reverse-proxy"
     },
     {
+      "name": "Branding",
+      "path": "../branding"
+    },
+    {
       "name": "Docs",
       "path": "../docs"
     },
