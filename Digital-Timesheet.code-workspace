@@ -9,6 +9,10 @@
       "path": "../deploy-config"
     },
     {
+      "name": "Deployment",
+      "path": "../deployment"
+    },
+    {
       "name": "Frontend",
       "path": "../frontend"
     },
